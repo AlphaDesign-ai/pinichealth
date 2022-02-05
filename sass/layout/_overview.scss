@@ -1,0 +1,36 @@
+
+.overview {
+    h4 {
+        vertical-align: top;
+    }
+
+
+    &__heading {
+        margin: {
+            top: 2rem;
+            bottom: 10rem;
+        };
+        padding-bottom: 5rem;
+    }
+
+    &-item {
+        max-width: 340px;
+        margin: 0;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    &__icon {
+        width: 11.3rem;
+    }
+
+    &__paragraph {
+        margin: 0;
+        margin-bottom: 1rem;
+        font-size: 1.8rem;
+        line-height: 26px;
+        font-weight: 400;
+        color: $text-colour-1;
+    }
+}

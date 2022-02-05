@@ -1,0 +1,43 @@
+
+html {
+    font-size: 62.5%; // 10rem = 1rem
+}
+
+%heading {
+    font: {
+        weight: 700;
+    }
+    color: $text-colour-1;
+}
+
+.primary-heading {
+    @extend %heading;
+    font: {
+        size: 7rem;
+    }
+    max-width: 56%;
+    line-height: 1;
+    margin: 0 {
+        top: 2rem;
+        bottom: 4rem;
+    }
+}
+
+.secondary-heading {
+    @extend %heading;
+    font: {
+        size: 5.2rem;
+    }
+}
+
+.heading-4 {
+    @extend %heading;
+    font: {
+        size: 2.4rem;
+    }
+    line-height: 30px;
+    margin: {
+        top: 2.5rem;
+        bottom: 1rem;
+    };
+}

@@ -1,0 +1,18 @@
+
+.btn {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 17px 30px 17px 60px;
+    border-radius: 100px 100px 100px 0px;
+    text-decoration: none;
+    font: {
+        size: 1.8rem;
+        weight: 700;
+    }
+
+    &--full-p {
+        background-color: #7e57ff;
+        color: #ffffff;
+    }
+}
